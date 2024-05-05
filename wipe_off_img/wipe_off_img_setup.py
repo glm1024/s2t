@@ -8,19 +8,19 @@ Usage:
 from setuptools import setup
 
 # 放置要执行py的列表
-APP = ['convert.py']
+APP = ['wipe_off_img.py']
 
 # 放置要打包的资源文件列表
-DATA_FILES = ['logo.icns']
+DATA_FILES = ['wipe_off_img_logo.icns']
 
 # 其他配置
 OPTIONS = {
-    'iconfile': 'logo.icns',
+    'iconfile': 'wipe_off_img_logo.icns',
     'plist': {
-                    'CFBundleName'   : 's2t',     # 应用名
-                    'CFBundleDisplayName': 's2t', # 应用显示名
+                    'CFBundleName'   : 'woi',     # 应用名
+                    'CFBundleDisplayName': 'woi', # 应用显示名
                     'CFBundleVersion': '2.5.3',      # 应用版本号
-                    'CFBundleIdentifier' : 's2t', # 应用包名、唯一标识
+                    'CFBundleIdentifier' : 'woi', # 应用包名、唯一标识
                     'NSHumanReadableCopyright': 'Copyright © 2024 Mark. All rights reserved.', # 可读版权
     },
     'includes': ['python-docx', 'opencc-python-reimplemented'],

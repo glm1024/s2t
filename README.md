@@ -18,7 +18,7 @@
 
    ```
    cd s2t	
-   pip3  install python-docx opencc-python-reimplemented 
+   pip3 install python-docx opencc-python-reimplemented 
    ```
 
    
@@ -38,3 +38,10 @@
 ## 许可证
 
 本项目基于 MIT 许可证。
+
+
+
+## 其他
+
+1. setup.py和logo.icns这两个文件，是用来py2app打包mac应用用的，本地执行python代码不需要关心。
+2. wipe_off_img文件夹内资源，和简繁转换无关，提供批量去除docx文件中的图片功能。
